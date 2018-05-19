@@ -1,0 +1,551 @@
+body .hugeit-contact-wrapper input, body .hugeit-contact-wrapper textarea {padding:0; margin:0;}
+
+.simple-captcha-block input[type='text'] {
+    max-width: 300px;
+}
+
+.simple-captcha-block label {
+    max-width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+#hugeit-contact-preview-container {
+    position: relative;
+    float: right;
+    width: 60%;
+    padding: 10px 0 10px 0;
+    background: #fff;
+    min-width: 310px;
+
+}
+.radio-block i.active, .checkbox-block i.active{
+    display: none;
+}
+.radio-block input:checked + i.active, .radio-block input:checked + i.active:hover,
+.checkbox-block	input:checked + i.active,.checkbox-block input:checked + i.active:hover {
+    display:inline-block;
+}
+.hugeit-contact-wrapper {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block {
+    position: relative;
+    float: left;
+    width: 94%;
+    min-width: 250px;
+    margin: 0 1% 0 1%;
+    height: auto;
+    min-height: 30px;
+}
+
+.hugeit-contact-wrapper div.multicolumn .hugeit-contact-column-block {
+    width: 47%;
+    padding-top: 10px;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block {
+    padding-top: 10px;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div {
+    width: 100%;
+    padding: 5px 0 5px 0;
+    clear: both;
+}
+.hugeit-contact-wrapper .hugeit-contact-column-block > div.hugeit-check-field,
+.hugeit-contact-wrapper .hugeit-contact-column-block > div.hugeit-radio-field {
+    padding: 5px 0 5px 0;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div.buttons-block {
+    position: relative;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div.hover-active {
+    border: 2px dashed #2EA2CC;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    margin-left: -4px;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div.captcha-block {
+    /*height:78px;*/
+}
+
+/***fvpps***/
+.free_video .portelemented .play-icss {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: none;
+}
+.hugeit-contact-wrapper .hugeit-contact-column-block div.hugeit-field-block {
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    clear: both;
+}
+/***fvpps***/
+.hugeit-contact-wrapper .hugeit-contact-column-block  div.hugeit-field-block > label {
+    display: block;
+    width: 38%;
+    float: left;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block {
+    display: inline-block;
+    width: 60%;
+    vertical-align: super !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block select,
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block textarea,
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block input[type="text"],
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block input[type="password"],
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block input[type="name"],
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block input[type="email"],
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block input[type="number"] {
+    width: 100%;
+    line-height: initial !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block.selectbox-block select,
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block.selectbox-block select option,
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block.selectbox-block input.textholder{
+    font-size: inherit;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block ul {
+    width: 100%;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block ul li {
+    float: left;
+    line-height: 1 !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block ul li label {
+    margin: 0 10px 0 0;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block ul li label span.sublable {
+    vertical-align: super;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div ul {
+    position: relative;
+    display: table !important;
+    padding: 0 !important;
+    margin: 0px !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div > label ul li {
+    clear: both;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.hugeit-contact-wrapper#huge_it_captcha {
+    float: right;
+}
+
+.hugeit-contact-wrapper.big-radio .radio-block, .hugeit-contact-wrapper.big-checkbox .checkbox-block {
+    width: 24px;
+    height: 24px;
+    border-radius: 13px;
+}
+
+.hugeit-contact-wrapper.big-radio .radio-block input:checked + span, .hugeit-contact-wrapper.big-checkbox .checkbox-block input:checked + span {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    top: 5px;
+    left: 5px;
+}
+
+.hugeit-contact-wrapper.medium-radio .radio-block, .hugeit-contact-wrapper.medium-checkbox .checkbox-block {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.hugeit-contact-wrapper.medium-radio .radio-block input:checked + span, .hugeit-contact-wrapper.medium-checkbox .checkbox-block input:checked + span {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    top: 4px;
+    left: 4px;
+}
+
+.hugeit-contact-wrapper.small-radio .radio-block.small, .hugeit-contact-wrapper.small-checkbox .checkbox-block {
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+}
+
+.hugeit-contact-wrapper.small-radio .radio-block input:checked + span, .hugeit-contact-wrapper.small-checkbox .checkbox-block input:checked + span {
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    top: 3px;
+    left: 3px;
+}
+
+#huge-it-captcha-popup > div > label {
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+}
+
+#huge-it-captcha-popup > div > input {
+    width: 350px;
+}
+
+.hugeit-contact-wrapper > div > h3 {
+    position: relative;
+    display: block;
+    clear: both !important;
+    padding: 5px 0 10px 1% !important;
+    margin: 10px 0 15px 0 !important;
+}
+
+.hugeit-contact-wrapper.hugeit-field-block span.hugeit-error-message {
+    font-size: 12px !important;
+    display: inline;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.hugeit-contact-wrapper .hugeit-field-block span.huge_it_spam_msg {
+    font-size: 16px !important;
+    display: block;
+    text-align: center;
+    vertical-align: super;
+}
+
+.hugeit-contact-wrapper .hugeit-field-block span.huge_it_button_overlay {
+    background: rgba(241, 241, 241, 0.85);
+    position: absolute;
+    top: 2px;
+    left: 0;
+    text-align: center;
+}
+.hugeit-contact-wrapper .hugeit-field-block.buttons-block button.submit:focus{
+    outline: none;
+}
+.hugeit-contact-wrapper .hugeit-field-block span.huge_it_button_overlay > img#buttLoad {
+    width: 20px;
+    height: 20px;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div > label.formsRightAlign {
+    text-align: right !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div > label.formsAboveAlign {
+    width: 100% !important;
+    float: none !important;
+    padding-bottom: 5px !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .formsAboveAlign {
+    width: 100% !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div > label.formsLabelHide {
+    display: none;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .formsLabelHide {
+    width: 100% !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div > label.formsInsideAlign {
+    display: none !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .formsInsideAlign {
+    width: 100% !important;
+}
+
+.hugeit-contact-wrapper .input-text-block input{
+    width: 100%;
+}
+
+.hugeit-contact-wrapper .input-name-block {
+    font-size: 0 !important;
+}
+
+.hugeit-contact-wrapper .input-name-block input:first-child,
+.hugeit-contact-wrapper .input-name-block input:first-child:focus {
+    margin-right: 2% !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div ul.hide {
+    display: none !important;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div ul.country-list {
+    display: block !important;
+    z-index: 10;
+}
+
+.hugeit-contact-wrapper .hugeit-contact-column-block > div .field-block ul.country-list li {
+    float: none !important;
+    margin: 0 !important;
+}
+
+.hugeit-contact-wrapper .hugeit-checkbox-list {
+    list-style: none;
+}
+
+.hugeit-contact-wrapper .hugeit-checkbox-list li,
+.hugeit-contact-wrapper .hugeit-radiobox-list li {
+
+    margin: 0 0 6px 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+
+.hugeit-contact-wrapper .hugeit-checkbox-list li label,
+.hugeit-contact-wrapper .hugeit-radiobox-list li label {
+    cursor: pointer;
+}
+
+.hugeit-contact-wrapper .radio-block,
+.hugeit-contact-wrapper .checkbox-block {
+    position: relative;
+    float: left;
+    margin: 0 5px 0 0px !important;
+    display: block;
+}
+
+.hugeit-contact-wrapper .radio-block input,
+.hugeit-contact-wrapper .checkbox-block input {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hugeit-contact-wrapper.big-radio .radio-block i,
+.hugeit-contact-wrapper.big-checkbox .checkbox-block i {
+    font-size: 24px;
+}
+
+.hugeit-contact-wrapper.medium-radio .radio-block i,
+.hugeit-contact-wrapper.medium-checkbox .checkbox-block i {
+    font-size: 20px;
+}
+
+.hugeit-contact-wrapper.small-radio .radio-block i,
+.hugeit-contact-wrapper.small-checkbox .checkbox-block i {
+    font-size: 15px;
+}
+
+.hugeit-contact-wrapper .radio-block i.active,
+.hugeit-contact-wrapper .checkbox-block i.active {
+    display: none;
+}
+
+/*Voch checked inputi motic heracnumenq active@*/
+.hugeit-contact-wrapper .radio-block input:checked + i.active + i.passive,
+.hugeit-contact-wrapper .checkbox-block input:checked + i.active + i.passive {
+    display: none;
+}
+
+.hugeit-contact-wrapper .file-block {
+    position: relative;
+    cursor: pointer;
+}
+
+.hugeit-contact-wrapper .file-block input[type='file'] {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*############ License Field ############*/
+.hugeit-contact-wrapper .hugeit-check-field > .license-block {
+    width: 100% !important;
+}
+
+.hugeit-contact-wrapper .hugeit-check-field > .license-block > .secondary-label {
+    vertical-align: super !important;
+}
+
+.hugeit-contact-wrapper .hugeit-check-field > .license-block > .secondary-label > .checkbox-block {
+    margin: 0 5px 0 0 !important;
+    float: none !important;
+    display: inline-block;
+    vertical-align: middle !important;
+}
+
+.hugeit-contact-wrapper .checkbox-block i {
+    display: inline-block;
+    float: left;
+    width: 20px;
+}
+
+.hugeit-contact-wrapper .selectbox-block select {
+    position: relative;
+    opacity: 0;
+    z-index: 0;
+}
+
+.hugeit-contact-wrapper .selectbox-block .textholder {
+    position: absolute;
+    width: 90%;
+    margin: 0 !important;
+    top: 0;
+    left: 0;
+    border: 0;
+    opacity: 1 !important;
+    background: none;
+    padding: 0 10% 0 5px !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.hugeit-contact-wrapper .file-block .textholder {
+    padding: 0 40% 0 5px !important;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    position: relative;
+    float: left;
+    margin: 0;
+    background: none;
+}
+
+.hugeit-contact-wrapper .file-block .uploadbutton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38%;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    box-sizing: content-box;
+    padding: 0 1%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.hugeit-contact-wrapper .file-block .uploadbutton i {
+    vertical-align: baseline;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.hugeit-contact-wrapper .captcha-block div {
+    margin-right: -1px;
+    float: right;
+}
+
+.hugeit-contact-wrapper .buttons-block button {
+    height: auto;
+    cursor: pointer;
+    text-transform: none;
+}
+
+.hugeit-contact-wrapper .buttons-block button.submit {
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+    margin: 0 0 5px 0 !important;
+    background-image: none !important;
+}
+
+.hugeit-contact-wrapper .buttons-block button.submit i {
+    vertical-align: baseline !important;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+}
+
+.hugeit-contact-wrapper .buttons-block button.reset {
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+    background-image: none !important;
+}
+
+.hugeit-contact-wrapper .buttons-block button.reset i {
+    vertical-align: baseline !important;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+}
+/* Pagination */
+.paginationUl {
+    display: none;
+    margin-top:30px!important;
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+
+}
+
+
+.paginationUl  li{
+    line-height: 40px;
+    width:34px;
+    height:40px;
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+}
+.hugeit-form-mobile{
+    margin-bottom: 30px;
+}
+/* Pagination */
+
+button[disabled], input[disabled], select[disabled], textarea[disabled] {
+    cursor: pointer !important;
+    opacity: .5 !important;
+}
+input[disabled] +i +i {
+    opacity: 0.5;
+}
+
+.fullWidth{
+    width: 100%!important;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #7b7b7b;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #7b7b7b;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #7b7b7b;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #7b7b7b;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:    #7b7b7b;
+}
+
+@media all and (max-width: 768px){
+    .hugeit-contact-wrapper div.multicolumn .hugeit-contact-column-block {
+        width: 100%;
+    }
+}

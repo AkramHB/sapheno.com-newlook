@@ -1,0 +1,880 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
+/*color scheme*/
+/*
+-main
+#ACC491
+#DEF7C3
+
+-lighter
+#eef9d5
+
+-blue
+#005B69
+*/
+.agca-clear {
+    clear: both;
+}
+
+.agca-tip {
+    padding-left: 20px;
+}
+
+h1#agca-title {
+    color: #826c63;
+    font-weight: bold;
+    font-size: 30px;
+}
+h1#agca-title .title{
+    float:left;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+h1#agca-title img{
+    width: 128px;
+    float: left;
+    margin-top: -40px;
+}
+h1#agca-title .version{
+    font-size: 15px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+table .agca-tip {
+    padding-left: 10px;
+}
+
+#ag_main_menu {
+    display: block;
+    height: 34px;
+    border-bottom: 3px solid #826c63;
+    margin-top: 10px;
+}
+#ag_main_menu li a:hover{
+    color: #fff;
+}
+#ag_main_menu li.upgrade{
+    background-color:#fff;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #826c63;
+}
+#ag_main_menu li.upgrade:hover{
+    background: #fff !important;
+}
+#ag_main_menu li.upgrade:hover a{
+    color:#e85e3a;
+}
+#ag_main_menu li.upgrade a{
+    color: #826c63;
+    padding-left: 20px;
+    font-weight:bolder;
+}
+#ag_main_menu li.upgrade img{
+    width: 30px;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -28px;
+}
+
+.ag_section {
+    background: transparent;
+}
+
+#agca_form #section-cusmin {
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid #999;
+    background: #fff;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #999;
+}
+
+
+#ag_main_menu li {
+    display: block;
+    background-color: #826c63;
+    float: left;
+    color: #fff;
+    padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    border-bottom: 3px solid #826c63;
+}
+
+#ag_main_menu li.selected {
+    background-color: #efefef;
+    color: #826c63;
+    cursor: default;
+}
+#ag_main_menu li.selected a{
+    color: #6d6764;
+}
+
+#ag_main_menu li.normal:hover {
+    background-color: #6d6764;
+    cursor: pointer;
+}
+
+#ag_main_menu a:focus {
+    outline: none;
+    border: 0;
+}
+
+#ag_main_menu li a {
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    border: 0;
+}
+
+.ag_table_heading {
+    background: none;
+    display: block;
+    height: 25px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.ag_table_heading h3 {
+    color: #826c63;
+    background: #efefef;
+    margin-left: -15px;
+    padding: 5px 15px;
+    border: none;
+    border: 3px #826c63 solid;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.ag_table_major_options {
+    background-color: #f9f8f8;
+    width: 500px;
+    margin-bottom: 2px;
+}
+
+#agca_form .form-table .ag_table_major_options td {
+    padding-left: 20px;
+}
+
+div#AGToolTipDiv {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    height: auto;
+    border: 1px solid #FFFF00;
+    background-color: #efefef;
+    color: #826c63;
+    display: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+td.ag_admin_menu_parent {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+td.ag_admin_menu_parent:hover {
+    background-color: #ddd;
+}
+
+#ag_edit_adminmenu h3 {
+    color: #ffffff;
+}
+
+#ag_edit_adminmenu tr {
+    margin: 0;
+    padding: 0;
+    background-color: #E8FAE8;
+}
+
+#ag_edit_adminmenu td.ag_admin_menu_child {
+    margin: 0;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#ag_edit_adminmenu th h2 {
+    color: #fff;
+}
+
+#ag_edit_adminmenu a {
+    text-decoration: none;
+    color: #444;
+}
+
+.noclass {
+    display: none;
+}
+
+#agca_footer_support_info {
+    font-size: 12px;
+    font-weight: bold;
+    background: #acc491;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+}
+
+#agca_footer_support_info a {
+    color: #005b69;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#agca_news {
+    height: 20px;
+    clear: both;
+    position: absolute;
+    margin-top: -22px;
+    color: #005B69;
+    display: none;
+}
+
+#agca_news a {
+    color: #005B69;
+}
+
+#agca_advertising {
+    display: block;
+    width: 900px;
+    height: 100px;
+    /*background-color: #cccccc;*/
+    padding: 0;
+    margin: 0;
+}
+
+#agca_advertising ul {
+    padding: 0;
+    margin: 0;
+    padding-right: 5px;
+}
+
+#agca_advertising > ul > li {
+    float: left;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+#agca_form {
+    min-width: 835px; /*used for agca menu lineup*/
+}
+
+#agca_form .section_title {
+    font-weight: bold;
+    background: transparent;
+    border-bottom-right-radius: 15px;
+    color: #e85e3a;
+    float: left;
+    font-size: 40px;
+    padding: 20px 11px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    width: 50%;
+    display: block;
+    margin-top: 0;
+}
+
+#agca_form select{
+    border:3px #826c63 solid;
+    color: #826c63;
+    display: inline-block;
+    font-weight: bold;
+    height: 35px !important;
+    width: auto;
+}
+#agca_form a{
+    font-weight: bold;
+    color: #826c63;
+}
+#agca_form a:hover{
+    color: #6d6764;
+}
+#agca_form h2.section_title {
+
+}
+
+#agca_form h2.section_title {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1em;
+}
+
+#agca_form h2.section_title {
+    color: #e85e3a;
+}
+
+/* Don't show shadows when selecting text */
+#agca_form h2.section_title::-moz-selection {
+    background: #5af;
+    color: #fff;
+    text-shadow: none;
+}
+
+#agca_form h2.section_title::selection {
+    background: #5af;
+    color: #fff;
+    text-shadow: none;
+}
+
+#agca_form #templates_head_buttons input[type=button] {
+    background: #826c63;
+    color: white;
+    font-weight: bold;
+}
+
+#agca_form #templates_head_buttons input[type=button]:hover {
+    background: white;
+    color: #6d6764;
+}
+
+.ag-custom-button {
+
+    /* margin-bottom:-4px !important;*/
+}
+
+#sidebar_adminmenu_logo {
+    margin-bottom: -33px;
+    min-height: 28px;
+    cursor: pointer;
+}
+
+.agcaMenuEditorPlusMinus .plus {
+    padding-right: 4px;
+    display: inline;
+}
+
+.agcaMenuEditorPlusMinus .minus {
+    padding-right: 4px;
+    display: none;
+}
+
+.agcaMenuEditorPlusMinus .dashicons:before {
+    font-size: 25px;
+    line-height: 22px;
+    display: inline-block;
+}
+
+.agcaMenuEditorPlusMinus {
+    float: left;
+    margin-right: 18px;
+    cursor: default;
+    width: 10px;
+    color: #816c64;
+    margin-top: -19px;
+    padding-top: 9px;
+}
+
+/*#agca_form input.agca_button,#agca_form #ag_add_adminmenu button{
+    padding: 3px 10px;
+    background-color:#ffffff;
+}    */
+#agca_form .agca_button.clear span{
+    margin-top: 5px;
+}
+#agca_form .agca_button.clear span:before {
+    color: #826c63;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#agca_form .agca_button.clear span:hover:before {
+    color: red;
+}
+
+#agca_form input[type=button], button {
+    background: #826c63;
+    border: 1px solid #826c63;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+}
+
+#agca_form input[type=button]:hover {
+    background-color: #6d6764;
+    border: 1px solid #6d6764;
+    color: #fff;
+    cursor: pointer;
+}
+
+#agca_form input[type=text] {
+    height: 28px;
+    width: 400px;
+    border: 3px solid #eee;
+    box-shadow: none;
+    padding: 15px 10px;
+    background: #f5f2f2;
+    color: #816c64;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#agca_form input.color_picker {
+    width: 88px;
+}
+
+#agca_form input.color_picker:placeholder-shown + .pick_color_button + .pick_color_button_clear{
+    display: none !important;
+}
+
+#agca_form input[type=text]:focus{
+    background-color: transparent;
+    border: 3px solid #826c63;
+}
+
+#agca_form textarea {
+    width: 400px;
+    background: #f5f2f2;
+    border: 3px solid #eee;
+    color: #816c64;
+    font-weight: bold;
+    padding: 5px;
+}
+#agca_form textarea.one-line{
+    height: 35px;
+}
+
+#agca_form textarea.wp-editor-area {
+    width: 100%;
+}
+
+#agca_form textarea:focus {
+    background-color: transparent;
+    border: 3px solid #826c63;
+}
+
+#agca_form #ag_edit_adminmenu tr td{
+    line-height: 0;
+}
+
+#agca_form #ag_add_adminmenu input[type=text] {
+    width: 300px;
+}
+
+#agca_form #ag_add_adminmenu .button_edit span,
+#agca_form #ag_add_adminmenu .button_remove span {
+    font-size: 25px;
+    color: #826c63;
+}
+
+#agca_form #ag_add_adminmenu .button_remove span {
+    color: red;
+}
+
+#agca_form input#save_plugin_settings {
+    background: #826c63;
+    font-weight: bold;
+    height: 39px;
+    padding: 4px;
+    width: 100%;
+    border: 1px solid #826c63 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 16px;
+    color: #fff !important;
+}
+
+#agca_form input#save_plugin_settings:hover {
+    background-color: #6d6764 !important;
+}
+
+#agca_form input#save_plugin_settings[type="button"]:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+/*editor style fix*/
+#agca_form .agca_editor input[type="button"], button {
+    color: black;
+}
+
+#agca_form .agca_editor textarea {
+    width: 100%;
+}
+
+.agca_editor {
+    width: 600px;
+}
+
+/*templates*/
+#agca_templates .error {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.agca_template {
+    display: block;
+    float: left;
+    border: 3px solid #aaa;
+    margin: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.agca_template:hover {
+    border: 3px solid green;
+}
+
+.agca_template h3 {
+    text-align: center;
+    color: green;
+}
+
+.agca_template h3 span {
+    color: #555;
+    font-size: 16px;
+}
+
+.agca_template img {
+    width: 250px;
+}
+
+.agca_logout_button {
+    background: none repeat scroll 0 0 #dddddd;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 0 0 3px 3px;
+    border: 1px solid #BBBBBB;
+    border-top: none;
+    margin-left: 6px;
+    margin-right: 20px;
+    padding: 6px 10px;
+}
+
+#ag_add_adminmenu button {
+    border: medium none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 6px 9px;
+    min-width: 150px;
+}
+
+.wp-admin.folded #sidebar_adminmenu_logo {
+    display: none;
+}
+
+.agca-selectbox {
+    width: 405px;
+    padding: 4px !important;
+    height: 28px !important;
+}
+
+.agca-selectbox:hover {
+    background-color: #eee;
+}
+
+#agca_form .agca-checkbox-box {
+    cursor: pointer;
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    float: left;
+}
+
+#agca_form .agca-checkbox-box:before {
+    content: "●";
+    font-size: 45px;
+    line-height: 25px;
+    color: #ccc;
+}
+
+#agca_form .agca-checkbox-box-checked {
+    cursor: pointer;
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    float: left;
+}
+
+#agca_form .agca-checkbox-box-checked:before {
+    content: "●";
+    font-size: 45px;
+    line-height: 25px;
+    color: #826c63;
+}
+
+#agca_form .agca-checkbox-box-checked.visibility:before {
+}
+
+#agca_form .agca-checkbox-box-checked:hover:before,
+#agca_form .agca-checkbox-box:hover:before {
+    color: #999;
+}
+
+#agca_form label {
+    font-size: 15px;
+    color: #777777;
+}
+
+#agca_form .form-table th {
+    width: 350px;
+    padding: 10px;
+}
+#agca_form .form-table th label{
+    font-weight: normal;
+}
+#agca_form .form-table td {
+    padding: 10px;
+}
+#agca_form .form-table td p{
+    color: #9c8a8a;
+}
+.ag_admin_menu_parent .agca-checkbox-box-checked, .ag_admin_menu_parent .agca-checkbox-box {
+    margin-top: -15px;
+}
+
+#agca_form input[type=radio] {
+    display: block;
+    float: left;
+}
+
+#agca_form .agca-radiobox {
+    cursor: pointer;
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    float: left;
+}
+
+#agca_form .agca-radio-text {
+    display: block;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 4px 25px 4px 4px;
+    cursor: pointer;
+}
+
+#agca_form .agca-radio-text.on {
+    color: #ccc;
+}
+
+#agca_form .agca-radio-text.off {
+    color: #ccc;
+}
+
+#agca_form .agca-radiobox:before {
+    font-family: Dashicons;
+    content: "\f159";
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#agca_form .agca-radiobox.checked:before {
+    content: "\f502";
+}
+
+#agca_form .agca-radiobox.checked[value=off]:before {
+    content: "\f153";
+}
+
+#agca_form .agca-radiobox[value=on]:before {
+    color: #ACC491;
+}
+
+#agca_form .agca-radiobox[value=off]:before {
+    color: #ccc;
+}
+
+#agca_form #section_templates {
+    background: transparent;
+}
+
+#wp-admin-bar-agca-admin-themes a {
+    color: #def7c3 !important;
+}
+
+#wp-admin-bar-agca-admin-themes .ab-icon:before {
+    font-family: "dashicons";
+    content: "\f100";
+    margin-top: 2px;
+    display: block;
+    color: #eef9d5 !important;
+}
+
+.agca-feedback-and-support a {
+    border: medium none;
+    border-radius: 4px;
+    color: #FFFFFF !important;
+    padding: 6px 20px;
+    min-width: 240px;
+    background: #826c63;
+    display: inline-block;
+    font-weight: normal !important;
+    text-decoration: none;
+}
+
+.agca-feedback-and-support .upgrade a{
+    background: #f9f9f9;
+    color: #826c63 !important;
+    float: left;
+    border: 1px solid #826c63;
+    padding: 5px 30px 5px 9px;
+}
+.agca-feedback-and-support .upgrade span{
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+.agca-feedback-and-support .upgrade img{
+    width: 50px;
+    height: auto;
+    float: left;
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.agca-feedback-and-support a:hover {
+    background-color: #6d6764;
+}
+.agca-feedback-and-support .upgrade a:hover{
+    background-color: #fff;
+    color: #826c63;
+    box-shadow: 1px 1px 1px #ddd;
+}
+#agca-your-feedback {
+    float: right;
+    width: 160px;
+    margin-top: -10px;
+    display: none;
+}
+
+#agca-your-feedback .dashicons {
+    font-size: 24px;
+    padding: 0 3px;
+    line-height: 18px;
+}
+
+#agca-your-feedback a {
+    text-decoration: none;
+}
+
+#agca-your-feedback a {
+    text-decoration: none;
+}
+
+#agca-your-feedback .feedback.negative {
+    color: #f08080;
+}
+
+#agca-your-feedback .feedback.negative:hover {
+    color: red;
+}
+
+#agca-your-feedback .feedback.positive {
+    color: #ACC491;
+}
+
+#agca-your-feedback .feedback.positive:hover {
+    color: green;
+}
+
+#agca_donate_button {
+    margin-left: 5px;
+    margin-top: 3px;
+    display: inline-block;
+}
+#agca_donate_button img{
+    width: 125px;
+    margin-top: -8px;
+}
+
+#section_ag_colorizer_settings .color input {
+    border-radius: 5px;
+}
+
+#section_ag_colorizer_settings .color .agca_button {
+    cursor: pointer;
+}
+
+#section_ag_colorizer_settings .color .agca_button span {
+    font-size: 35px;
+    padding: 0 6px;
+    color: #826c63;
+}
+
+#section_ag_colorizer_settings .color .agca_button span:hover {
+    color: #6d6764;
+}
+
+#section_ag_colorizer_settings .color .agca_button span.clear {
+    color: #826c63;
+}
+
+#section_ag_colorizer_settings .color .agca_button span.clear:hover {
+    color: red;
+}
+/*Hide dashboard empty box containers*/
+#dashboard-widgets div.empty-container{
+    display: none;
+}
+
+.tools_page_ag-custom-admin-plugin #wpwrap{
+    background: #fff;
+
+}
+.tools_page_ag-custom-admin-plugin #agca_form{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.tools_page_ag-custom-admin-plugin #agca_form *:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.agca_template_block h3,
+.agca_template_block span.price,
+.agca_template_block a{
+    color: inherit !important;
+}
+#agca_template_popup .agca_content{
+    background: #bbb !important;
+}
+
+.agca_template_block .template img{
+    box-shadow: none !important;
+}
+
+#agca_form #ag_edit_adminmenu tr.top td{
+    background: #f9f8f8;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+#agca_form #ag_edit_adminmenu tr.top td.ag_admin_menu_parent2{
+    padding-top: 2px;
+}
+#agca_form #ag_edit_adminmenu tr.top:nth-child(odd) td{
+    background: #f3f3f3;
+}
+#agca_form #ag_edit_adminmenu tr.sub td{
+    background: #fff;
+    padding: 0;
+    padding-left: 10px;
+}
+#agca_form #ag_edit_adminmenu tr.sub td div a{
+    padding: 17px;
+    display: inline-block;
+}
+
+#agca_form #ag_edit_adminmenu tr:first-child td{
+    background: #826c63;
+}

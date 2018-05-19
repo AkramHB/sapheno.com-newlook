@@ -1,0 +1,613 @@
+.wpdev_settings_cluster {
+    /*box-shadow: 0 0 21px -6px rgba(0,0,0,0.45);
+    background-color: white;*/
+    padding: 25px 0;
+    margin: 40px auto;
+    width: calc(100% - 40px);
+    display: table;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #555459;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-smoothing: antialiased;
+}
+.wpdev_settings_cluster * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wpdev_settings_cluster section {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.wpdev_settings_cluster a {
+    color: #3aa3e3;
+    text-decoration: none;
+}
+.wpdev_settings_cluster a:hover {
+    color: #3aa3e3;
+    text-decoration: underline;
+}
+.wpdev-settings-pagetitle {
+    position:relative;
+    float:none;
+    width:100%;
+    display: table;
+}
+.wpdev-settings-pagetitle h2 {
+    float:left;
+    text-align: left;
+    padding: 15px 10px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: -1px;
+    margin: 0 0 1rem;
+    font-weight: 700;
+    color: #555459;
+}
+.wpdev-settings-pagetitle button {
+    float:right;
+    margin:20px 20px 0 0;
+}
+.wpdev-settings-pagetitle .spinner {
+    float: right;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+.wpdev_settings_cluster section {
+    display: block;
+    background: #fff;
+    border-radius: 0 0 .25rem .25rem;
+    box-shadow: 0 1px 0 rgba(0,0,0,.25);
+    padding: 1rem 1rem 1rem;
+    margin: 0 auto 3rem;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+
+}
+.wpdev_settings_cluster section:after,
+.wpdev_settings_cluster section:before {
+    display: table;
+    line-height: 0;
+    content: '';
+}
+.wpdev_settings_cluster section:after {
+    clear: both;
+}
+.wpdev_settings_cluster .wpdev_settings_hidden_section {
+    display: none;
+}
+.wpdev_settings_cluster .wpdev_settings_hidden_section.active {
+    display: block;
+}
+.wpdev_settings_cluster section h2 {
+    display: block;
+    padding: 15px 0 15px 2%;
+    margin: 0;
+    color: #807e7e;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.wpdev-settings-section {
+    width: 46%;
+    margin: 15px 1%;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,.1);
+    background: #ffffff;
+    border-radius: 2px;
+    padding: 10px 0;
+}
+.wpdev-settings-section .control-container {
+    position: relative;
+    clear: both;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0 !important;
+    line-height: 30px;
+    display: table;
+}
+.wpdev-settings-section .control-container .control-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.wpdev-settings-section .control-container .description {
+    padding-left: 55%;
+}
+.wpdev-label {
+    color: #555459;
+    font-size: 15px;
+    font-weight: 500;
+}
+.wpdev-settings-section .control-container label,
+.wpdev-settings-section .control-container .control-title {
+    display: inline-block;
+    width: 52%;
+    margin: 0 3% 0 0;
+    padding: 5px 0 0 2%;
+    float: left;
+    color: #555459;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.wpdev-settings-section .control-container label+div,
+.wpdev-settings-section .control-container .control-title+div{
+    width: 45%;
+    display: inline-block;
+}
+.wpdev-settings-section  .control-container-editor label{
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+}
+.wpdev-settings-section  .control-container-editor .wp-editor-wrap{
+    width: calc(100% - 20px);
+    margin: auto;
+}
+.wpdev-settings-section input[type="checkbox"]{
+    margin: 12px 4px 0 0;
+}
+.wpdev-settings-section textarea {
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    height: 200px;
+    border: 2px solid #c4c4c4;
+    background: #FCFCFC;
+    outline: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 0 6px;
+    color: #555459;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    resize: none;
+}
+.wpdev-settings-section textarea.short-textarea{
+    height: 70px;
+    width: 40%;
+    margin: 0;
+}
+.wpdev-settings-section input[type="color"],
+.wpdev-settings-section input[type="date"],
+.wpdev-settings-section input[type="datetime"],
+.wpdev-settings-section input[type="datetime-local"],
+.wpdev-settings-section input[type="email"],
+.wpdev-settings-section input[type="month"],
+.wpdev-settings-section input[type="number"],
+.wpdev-settings-section input[type="password"],
+.wpdev-settings-section input[type="search"],
+.wpdev-settings-section input[type="tel"],
+.wpdev-settings-section input[type="text"],
+.wpdev-settings-section input[type="time"],
+.wpdev-settings-section input[type="url"],
+.wpdev-settings-section input[type="week"] {
+    width: 40%;
+    height: 36px;
+    border: 1px solid #c4c4c4;
+    outline: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 0 6px;
+    color: #555459;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+}
+.wpdev-settings-section input[type="color"]:focus,
+.wpdev-settings-section input[type="date"]:focus,
+.wpdev-settings-section input[type="datetime"]:focus,
+.wpdev-settings-section input[type="datetime-local"]:focus,
+.wpdev-settings-section input[type="email"]:focus,
+.wpdev-settings-section input[type="month"]:focus,
+.wpdev-settings-section input[type="number"]:focus,
+.wpdev-settings-section input[type="password"]:focus,
+.wpdev-settings-section input[type="search"]:focus,
+.wpdev-settings-section input[type="tel"]:focus,
+.wpdev-settings-section input[type="text"]:focus,
+.wpdev-settings-section input[type="time"]:focus,
+.wpdev-settings-section input[type="url"]:focus,
+.wpdev-settings-section input[type="week"]:focus,
+.wpdev-settings-section textarea:focus {
+    border-color: #2780f8;
+    box-shadow: 0 0 7px rgba(39,128,248,.15)
+}
+.wpdev-settings-section input,
+.wpdev-settings-section select {
+    vertical-align: middle;
+}
+.control-container .radio-block {
+    float: left;
+    max-width: 40%;
+    overflow: hidden;
+}
+.control-container .radio-block * {
+    box-sizing: content-box;
+}
+.control-container .radio-block input{
+    display: none;
+}
+.control-container .radio-block label {
+    width: auto !important;
+    white-space: nowrap;
+    padding: 0;
+    float:none;
+}
+.control-container .radio-block ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+.control-container .radio-block li {
+    display:block;
+    clear: both;
+}
+.control-container .radio-block label {
+    position: relative;
+    display: inline-block;
+    line-height: 22px;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+}
+.control-container .radio-block label .radicon{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    border-radius: 100%;
+    box-shadow: 0 0 21px -6px rgba(0,0,0,0.15);
+}
+.control-container .radio-block label:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #0994f0;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    opacity: 0;
+}
+.control-container .radio-block input[type="radio"]:checked ~ label:before{
+    opacity: 1;
+}
+.control-container-image_radio .control-title {
+    display: block !important;
+    float: initial !important;
+    clear: both;
+}
+.image-radio-block ul,
+.icon-radio-block ul{
+    display: block;
+    margin: 0;
+}
+.image-radio-block li,
+.icon-radio-block li{
+    display:inline-block;
+    margin: 3px 4px;
+}
+.image-radio-block input[type="radio"],
+.icon-radio-block input[type="radio"]{
+    display: none;
+}
+.image-radio-block input[type="radio"] ~ label,
+.icon-radio-block input[type="radio"] ~ label{
+    width:auto;
+    padding:0;
+    float: initial;
+    border: 2px solid transparent;
+}
+.image-radio-block input[type="radio"]:checked ~ label {
+   border: 2px solid #3aa3e3
+}
+.icon-radio-block input[type="radio"]:checked ~ label {
+    border: 2px solid #e397b4;
+    padding: 0 5px;
+}
+.image-radio-block input[type="radio"] ~ label img {
+    vertical-align: middle;
+}
+.wpdev_settings_navigation,
+.wpdev_settings_section_navigation{
+    position: relative;
+    max-height: 3rem;
+    margin: 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+.wpdev_settings_navigation > span,
+.wpdev_settings_section_navigation > span{
+    display: inline-block;
+    padding: 12px 32px 11px;
+    font-weight: 700;
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-radius: .25rem .25rem 0 0;
+    background-clip: padding-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    cursor:pointer;
+    color: #3aa3e3;
+    text-decoration: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.wpdev_settings_navigation > span:hover:not(.active) {
+    color: #3aa3e3;
+    text-decoration: underline;
+}
+.wpdev_settings_navigation > span.active,
+.wpdev_settings_section_navigation > span.active{
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    border-bottom-color: #fff;
+    color: #555459;
+    cursor: default;
+}
+.wpdev-settins-submit-block {
+    padding:0 20px;
+    text-align: right;
+}
+.wpdev-settins-submit-block .spinner {
+    float: initial;
+    vertical-align: middle;
+    margin-top: 0;
+}
+#wpdev-toast {
+    margin: 3em;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 2px;
+    float: left;
+    min-width: 216px;
+    max-width: 426px;
+    width: auto;
+    transition: all .3s ease;
+    cursor:pointer;
+    animation: show-wpdev-toast .15s ease;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    z-index: 10000;
+}
+#wpdev-toast.-success {
+    background: #4CAF50;
+}
+#wpdev-toast.-notice {
+    background: #03A9F4;
+}
+
+#wpdev-toast.-error {
+    background: #F44336;
+}
+#wpdev-toast p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+    font-weight:500;
+}
+#wpdev-toast.close--popup {
+    right: -100%;
+    opacity:0;
+    animation: close-wpdev-toast .15s ease;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes show-wpdev-toast {
+    from {right: -100%;opacity:0}
+    to {right: 0;opacity:1}
+}
+/* Standard syntax */
+@keyframes show-wpdev-toast {
+    from {right: -100%;opacity:0}
+    to {right: 0;opacity:1}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes close-wpdev-toast {
+    from {right: 0;opacity:1}
+    to {right: -100%;opacity:0}
+
+}
+/* Standard syntax */
+@keyframes close-wpdev-toast {
+    from {right: 0;opacity:1}
+    to {right: -100%;opacity:0}
+}
+.wpdev-primary-button {
+    background: #2ab27b;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.3rem;
+    font-weight: 900;
+    padding: 8px 14px 9px;
+    font-size: .9375rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: none;
+    border-radius: .25rem;
+    box-shadow: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.wpdev-primary-button.hover,
+.wpdev-primary-button:focus,
+.wpdev-primary-button:hover {
+    background: #2ab27b;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.wpdev-primary-button:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: .25rem;
+}
+.wpdev-primary-button.hover:after,
+.wpdev-primary-button:focus:after,
+.wpdev-primary-button:hover:after {
+    box-shadow: inset 0 -2px rgba(0,0,0,.25);
+}
+.wpdev-primary-button.active:after,
+.wpdev-primary-button:active:after {
+    box-shadow: inset 0 2px 1px rgba(0,0,0,.2);
+}
+/** Mini Button */
+.wpdev-mini-button {
+    display: inline-block;
+    height: 28px;
+    border: solid 1px #167ac6;
+    padding: 0 10px;
+    outline: 0;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    background: #167ac6;
+    color: #fff;
+    font-family: Roboto,arial,sans-serif;
+}
+.wpdev-mini-button:hover {
+    background: #126db3;
+    text-decoration: none;
+}
+
+.wpdev-mini-button:focus {
+    box-shadow: none;
+}
+.wpdev-left {
+    margin: 0 0 10px 10px;
+}
+.wpdev_settings_help {
+    display: inline-block;
+    position: relative;
+    float:right;
+    margin-top:10px;
+    border-radius: 50%;
+    color: #757575;
+    border: 1px solid #757575;
+    font-size: 13px;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    line-height: 15px;
+
+}
+.wpdev_settings_help_block {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    background: rgba(97,97,97,.9);
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    min-width: 250px;
+    padding: 8px;
+    text-align: center;
+    position: absolute;
+    top: 22px;
+    left: -3px;
+    z-index: 10;
+}
+.wpdev_settings_help:hover .wpdev_settings_help_block {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: all .2s ease-in-out;
+}
+.wpdev_settings_help_block p {
+    padding:0;
+    margin:0;
+    text-indent: 0;
+}
+.wpdev-settings-disabled-container {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wpdev-disabled-section > .wpdev-settings-disabled-container {
+    background-color:rgba(255,255,255,.7);
+    justify-content: center;
+}
+
+.wpdev-disabled-panel > .wpdev-settings-disabled-container {
+    background-color:rgba(255,255,255,.8);
+}
+
+.wpdev-settings-disabled-container .--description {
+    font-size: 18px;
+    color: #1b1a1a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wpdev-disabled-panel > .wpdev-settings-disabled-container .--description {
+    margin-top: 20vh;
+}
+
+.wpdev-settings-disabled-container a,
+.wpdev-settings-disabled-container a:link,
+.wpdev-settings-disabled-container a:visited {
+    margin: 30px 0;
+    padding: 0 59px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: text-shadow 0.15s ease-in-out;
+}
+.wpdev-settings-disabled-container a:hover {
+    text-shadow: 0 0 5px rgba(255,255,255,.5);
+    text-decoration: none;
+}
+
+.wpdev-disabled-panel {
+
+}
+@media screen and (max-width:720px){
+    .wpdev-settings-section {
+        width: 96%;
+    }
+}
+
+
+
+

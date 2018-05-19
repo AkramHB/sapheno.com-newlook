@@ -1,0 +1,82 @@
+.nf-popups-section-heading {
+    z-index: 1;
+    overflow: hidden;
+    padding: 0px !important;
+}
+
+.nf-popups-section-heading>span {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    background: #fff;
+    padding-right: 7px;
+    font-size: 20px;
+    margin-left: 36px;
+}
+
+.nf-popups-section-heading:before,
+.nf-popups-section-heading:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid #ddd;
+    width: 86%;
+    margin: 0 0px;
+}
+
+#nf-design-button {
+    background-color: orange;
+    box-shadow: 0 1px 0 orange;
+    border-color: orange;
+    color: #fff;
+    margin: 10px 0px;
+}
+
+.nf-popups-extension-row li {
+    vertical-align: top;
+    display: inline;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .25);
+    max-width: 280px;
+    margin: 0 20px 20px 0;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.nf-popups-extension-row img {
+    width: 100%;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.nf-popups-extension-row p {
+    margin: 10px;
+    color: #2d2d2d;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    min-height: 7.5em;
+}
+
+.nf-popups-extension-row li>.action-links {
+    text-align: center;
+    display: block;
+    border-top: 1px solid #ccc;
+}
+
+.nf-popups-extension-row li>.action-links .button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 7px 30px;
+    font-weight: 700;
+    height: auto;
+    position: relative;
+    transition: transform .5s;
+    background: #1ea9ea;
+    border: 1px solid #1ea9ea;
+    color: #fff;
+}
