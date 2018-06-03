@@ -21,7 +21,7 @@
 
     .count {
             position: relative;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
             color: #6a1b1b;
             font-weight: 900;
             font-size: 30px;
@@ -54,7 +54,22 @@
             -webkit-transform: scale(1.5);
             /* Safari 3-8 */
             transform: scale(1.08);
-        }    
+        } 
+        @media (min-width: 1023px) {
+  /* CSS that should be displayed if width is equal to or greater than 1023px goes here */
+          form{
+            margin: 0 10rem 0 10rem; 
+             
+          }
+
+        }
+        @media (max-width: 411px) {
+  /* CSS that should be displayed if width is equal to or less than 768px goes here */
+          .registerButton{
+            width: 50% !important; 
+             
+          }  
+        }     
     </style>
 </head>
 
@@ -66,11 +81,11 @@
 
     <div class="container " >
         <div class="px-3 py-4 ">
-            <div class="row border border-danger rounded" >
-               <div class="col-md-12 col-lg-12 center-block px-3 px-md-5 px-lg-5">
+            <div class=" row " >
+               <div class="col-md-12 col-lg-12 center-block px-3 px-md-5 px-lg-5" >
                 <h1 class="count1">سجل معنا</h1>
                 <br><br>
-                <form class="form-horizontal" role="form" method="POST" action="/register"  >
+                <form class="form-horizontal border border-danger rounded p-4 shadow-lg" role="form" method="POST" action="/register"  >
                     <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">الاسم</h4></label>
                             
@@ -109,8 +124,11 @@
                            <label for="" class=" col-form-label float-right"><h4 class="count">الجوال</h4></label>
                            <input class="form-control" type="tel" value="1-(555)-555-5555" id="">
                     </div>
-                                <img style="padding-bottom: 20px; height: 20%;width: 20%;border-radius: 20px;" class="zoom" src="assets/images/img-news/register.png"></a>                  
+                    <a href="#">
+                        <img style="padding-bottom: 20px; height: 25%;width: 25%; border-radius: 20px;" class="registerButton zoom img-fluid img-center center-block" src="assets/images/img-news/register.png">
+                    </a>                   
                 </form>
+                  
                </div>
             </div>
 
