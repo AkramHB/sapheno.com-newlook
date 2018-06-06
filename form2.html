@@ -21,9 +21,9 @@
     }   
     .count {
             position: relative;
-            margin-bottom: 22px;
+            margin-bottom: 10px;
             color: #6a1b1b;
-            font-weight: 900;
+            font-weight: 700;
             font-size: 28px;
         }
         
@@ -58,7 +58,7 @@
   /* CSS that should be displayed if width is equal to or greater than 1023px goes here */
           form{
             margin: 0 10rem 0 10rem; 
-             
+            width: 50%; 
           }  
         } 
 
@@ -84,32 +84,32 @@
                <div class="col-md-12 col-lg-12 center-block px-3 px-md-5 px-lg-5">
                 <h1 class="count1">سجل معنا</h1>
                 <br><br>
-                <form class="form-horizontal border border-danger rounded p-4 shadow-lg" role="form" method="POST" action="/register"  >
+                <form class="form-horizontal border border-danger rounded p-4 shadow-lg mx-auto  " accept-charset="utf-8" enctype="multipart/form-data" role="form" method="POST" action="form2.php" >
                     <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">البوستر الخاص بالحملة</h4></label>
                             
-                            <input type="file" class="form-control-file"  required >
+                            <input type="file" class="form-control-file" name="poster" accept=".png, .jpg, .jpeg, .pdf" required >
                            
                     </div>
                     <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">المكان</h4></label>
                             
-                            <input type="text" class="form-control " style="text-align: left" placeholder="المنطقة -المدينة - الحي" required>
+                            <input type="text" class="form-control " style="text-align: left" name="location" placeholder="المنطقة -المدينة - الحي" required>
                             
                     </div>  
                     <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">الزمان</h4></label>
                             
-                            <input type="date" class="form-control"  required>
+                            <input type="date" class="form-control" name="date" required>
                             
                     </div>
                     <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">وصف الحملة</h4></label>
-                            <textarea name="" id="" cols="20" rows="50" class="form-control" aria-required=""></textarea>
+                            <textarea name="description" id="" cols="20" rows="50" class="form-control" aria-required=""></textarea>
                     </div>
                     
                         <a href="#">
-                                <img style="padding-bottom: 20px; height: 25%;width: 25%; border-radius: 20px;" class="registerButton zoom img-fluid img-center center-block " src="assets/images/img-news/register.png">
+                                <input type ="image" name="submit" style="padding-bottom: 20px; height: 25%;width: 25%; border-radius: 20px;" class="registerButton zoom img-fluid img-center center-block " src="assets/images/img-news/register.png">
                         </a>                    
                 </form>
                </div>

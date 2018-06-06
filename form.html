@@ -23,8 +23,8 @@
             position: relative;
             margin-bottom: 10px;
             color: #6a1b1b;
-            font-weight: 900;
-            font-size: 30px;
+            font-weight: 700;
+            font-size: 28px;
         }
         
         .count1 {
@@ -59,7 +59,7 @@
   /* CSS that should be displayed if width is equal to or greater than 1023px goes here */
           form{
             margin: 0 10rem 0 10rem; 
-             
+            width: 50%; 
           }
 
         }
@@ -86,30 +86,30 @@
                <div class="col-md-12 col-lg-12 center-block px-3 px-md-5 px-lg-5" >
                 <h1 class="count1">سجل معنا</h1>
                 <br><br>
-                <form class="form-horizontal border border-danger rounded p-4 shadow-lg" role="form" method="POST" action="/register"  >
+                <form class="form-horizontal border border-danger rounded p-4 shadow-lg mx-auto " accept-charset="utf-8" role="form" method="POST" action="form.php" >
                     <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">الاسم</h4></label>
                             
-                            <input type="text" class="form-control " style="text-align: left" placeholder="" required>
+                            <input type="text" name="name" value="" class="form-control " style="text-align: left" placeholder="" required>
                             
                     </div> 
                     <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">تاريخ الميلاد</h4></label>
                             
-                            <input type="date" class="form-control"  required>
+                            <input type="date" name="birth_date" value="" class="form-control"  required>
                             
                     </div>
                     <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">الجنس</h4></label>
                          <div class="form-check">
                                  
-                                 <label class="form-check-label radio-inline" for="exampleRadios1">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="male" checked>
+                                 <label class="form-check-label radio-inline" for="male">
+                                <input class="form-check-input" type="radio" name="sex" id="male" value="male" checked>
                                 ذكر
                                  </label> 
                                  <br><br>
-                                 <label class="form-check-label radio-inline" for="exampleRadios2">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="female" >
+                                 <label class="form-check-label radio-inline" for="female">
+                                <input class="form-check-input" type="radio" name="sex" id="female" value="female" >
                                      أنثى
                                  </label>
                          </div>
@@ -118,29 +118,29 @@
                      <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">رقم الهوية</h4></label>
                             
-                            <input type="text" class="form-control " style="text-align: left" placeholder="" required>
+                            <input type="text" name="id_num" value="" class="form-control " style="text-align: left" placeholder="" required>
                             
                     </div>
                     <div class="form-group ">
                            <label for="" class=" col-form-label float-right"><h4 class="count">الجوال</h4></label>
-                           <input class="form-control" type="tel" value="1-(555)-555-5555" id="">
+                           <input class="form-control" type="tel" name="phone" value="" id="" required>
                     </div>
                     <div class="form-group ">
                             <label for="" class=" col-form-label float-right"><h4 class="count">فصيلة الدم</h4></label>
-                            <select class="form-control-lg">
-                                    <option>A+</option>
-                                    <option>A-</option>
-                                    <option>B+</option>
-                                    <option>B-</option>
-                                    <option>O+</option>
-                                    <option>O-</option>
-                                    <option>AB+</option>
-                                    <option>AB-</option>
+                            <select class="form-control-lg" name="blood_type">
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="O+" selected>O+</option>
+                                    <option value="O-">O-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
                             </select>
                     </div>
                     <a href="#">
-                        <img style="padding-bottom: 20px; height: 25%;width: 25%; border-radius: 20px;" class="registerButton zoom img-fluid img-center center-block" src="assets/images/img-news/register.png">
-                    </a>                   
+                        <input type ="image" name="submit" value="submit" style="padding-bottom: 20px; height: 25%;width: 25%; border-radius: 20px;" class="registerButton zoom img-fluid img-center center-block " src="assets/images/img-news/register.png">
+                    </a>                                       
                 </form>
                   
                </div>
